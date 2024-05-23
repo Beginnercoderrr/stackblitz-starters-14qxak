@@ -1,0 +1,98 @@
+body {
+  font-family: serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007BFF;
+  margin-right: 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: serif;
+}
+
+.quote-container {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.quote-container p {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: serif;;
+}
+
+.journal, .entries {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: serif;
+}
+
+.entries .entry {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.entry h2 {
+  margin-top: 0;
+  font-family: serif;
+}
+
+.entry .timestamp {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.new-entry {
+  margin-top: 20px;
+}
+
+.new-entry input, .new-entry textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Blacksword', cursive;
+  background: repeating-linear-gradient(
+      white,
+      white 24px,
+      #f4f4f4 25px
+  );
+  line-height: 25px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.new-entry textarea {
+  height: 200px;
+}
+
+.new-entry button {
+  padding: 10px 20px;
+  border: none;
+  background: #007BFF;
+  color: white

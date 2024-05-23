@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IntimateInk Journal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Blacksword&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="/" aria-current="page">Home</a>
+    </nav>
+    <main>
+        <h1>IntimateInk</h1>
+        <section class="journal">
+            <div class="entries" id="entries"></div>
+            <div class="new-entry">
+                <h2>New Entry</h2>
+                <form id="entryForm">
+                    <input type="text" id="title" name="title" placeholder="Title" required />
+                    <textarea id="content" name="content" placeholder="Write your thoughts here..." rows="10" required></textarea>
+                    <button type="submit">Add Entry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
